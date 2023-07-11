@@ -19,9 +19,28 @@
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
-          <li>HTML elements work together to buidl the frame of a webpage</li>
+          <li>HTML elements work together to build the frame of a webpage</li>
           <li>As a developer you should think of HTML First!</li>
           <li>HTML elements are often composed of opening and closing tags represented by angled brackets</li>
+          <li>Each html element performs a unique role however two elements stand above all to understanding how the structure works.</li>
+          <li>One of the three cornerstone languages in web develpoment, they make up the structure of a webpage. </li>
+          <li>The "body" element contains the content that is hsown to the user. All the elements that you want the user to see and interact with need to be placed within the "body".</li>
+          <li>The "head" element contains info, or metadata, that helps the browser render the page correctly. Elements included within the "head" are not visible when a user looks at a webpage.</li>
+          <li>THE FOLLOWING ARE BODY ELEMENTS:</li>
+          <li>"h1" represents the header and there can be multiple on a webpage.</li>
+          <li>"p" element is a block of text or paragraph.</li>
+          <li>"ul", "ol", and "li" elements represent unordered lists, ordered lists, and list items.</li>
+          <li>"img" element contains info about images displayed on the webpage. This can contain various attributes but the src attribute is the most important because it shows the location of the image. </li>
+          <li>"br" represents a break in text.</li>
+          <li>"a" element represents an anchor and it creates a link to a webpage.</li>
+          <li>THE FOLLOWING ARE HEAD ELEMENTS:</li>
+          <li>The "base" element defines the base URL for a webpage.</li>
+          <li>The "link' element connects an external resource to the HTML document.</li>
+          <li>The "meta" element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li>The "script" element embeds client-side scripts in the HTML document.</li>
+          <li>The "charset" element sets our character encoding.</li>
+          <li>The "http-equiv" element sets an HTTP header for content.</li>
+          <li>The "viewport" element sets the default view for our webpage.</li>
         </ul>
       </section>
    
@@ -37,6 +56,16 @@
           <li>Inline is only used for quick and permanent changes since they are less flexible.</li>
           <li>Internal CSS style sheets contain css rules in the head section of the HTML File.</li>
           <li>Internal CSS style sheets rules only apply to that specific webpage where you can configure css classes and ids.</li>
+          <li>CSS RULE div {color: blue; text-align: justify;}</li>
+          <li>The margin property acts much like a margin in a word processing document</li>
+          <li>A margin property indicates how much space we want around the outside of an element.</li>
+          <li>The padding property adds space around the content inside an element.</li>
+          <li>Each box consists of margins outside the element, and the element's borders, padding, and content.</li>
+          <li>.CARD ELEMENT</li>
+          <li>The period preceding card designates this as a class selector. Any HTML element assigned to the class, card, will gain these property assignments from the CSS.</li>
+          <li>The first declaration addresses the width of the element at 80% of the available width.</li>
+          <li>The margin property assigns 40px to the top and bottom, and the auto value to the left and right.</li>
+          <li>The border property assigns a border with a width of 5px that is solid and gray.</li>
         </ul>
       </section>
    
@@ -45,13 +74,53 @@
          <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git pull origin main: checks to see if your local branch is up to date with base branch in GitHub</li>
+          <li>git add -A: stages new code to be pushed to GitHub</li>
+          <li>git commit -m "your message here": creates a snapshot of current code and will update once pushed</li>
+          <li>git push origin feature/branch-name: pushes code to GitHub.</li>
+          <li>"pwd" displays the current working directory.</li>
+          <li>"cd" navigates to a directory.</li>
+          <li>"ls" lists directories.</li>
+          <li>"cd .." goes back.</li>
+          <li>"mkdir" makes a directory.</li>
+          <li>"touch" allows to make a new file in directory.</li>
+          <li>"start" opens said file.</li>
+          <li>"rm" removes a file</li>
+          <li>GitHub Sheet: https://education.github.com/git-cheat-sheet-education.pdf</li>
          </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>JavaScript in a gyst is a programming language that allows users to interact with a website</li>
+          <li>JavaScript is a dynamic language with dynamic types. Variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types</li>
+          <li>The .js file extension indicates that this file is a JavaScript file.</li>
+          <li>To declare a variable in JavaScript we use var, after that keyword we give the variable a name, it must be unique because it is how you reference the information stored.</li>
+          <li>We use an assignment operator = to assign the specific data to be stored. var shape = circle.</li>
+          <li>Each line in java script ends in a semicolon.</li>
+          <li>console.log method is used to ouput a message to the web console by adding an argument.</li>
+          <li>The word console refers to a test environment that developers use to check out their code. The second part, .log(), is a method, which means a set of instructions that can be executed by a computer. The .log() method will output whatever we add inside the parentheses to the console.</li>
+          <li>The script.js file is linked in the body element.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>JavaScript runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+          <li>We define topics AFTER we tell the computer to log it in the console.</li>
+          <li>An "if" statement is a way of introducing decision-making into our code.</li>
+          <li>If the computer encoutners a code that is "truthy" it will execute it, if it isnt "truthy" then it will not.</li>
+          <li>If you are adding more conditions you would us an "else if".</li>
+          <li>The strict equality operator "===" checks to see if two values are equal, and then returns a boolean result to true if the values are equal and false if they are not.</li>
+          <li>An Array is a single variable that is used to hold a group of data.</li>
+          <li>Strings need to be contained within quotation marks.</li>
+          <li>Arrays are useful tools for storing multiple items with different data types in a single variable, but not all arrays must have multiple data types. The array that we will add to our project only contains strings.</li>
+          <li>The location of the data item in the array is identified with a unique number called an index.</li>
+          <li>A "for" loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+          <li>A "for" loop contains three important statements;  starting point for our loop(var x = 0;),  Condition(xshapes.length;), the final statement allows the array to iterate over each item(x++).</li>
+          <li>A function is simply a set of instructions that tell the computer how to do a task.</li>
+          <li>to create a function we use the "function" keyword.  </li>
+          <li>To declare a function, we use the function keyword and then give our function a unique name followed by parentheses. Then we add curly brackets {} that contain the code for the task we want to perform. In our example, we created two separate functions: one for our for loop and one for our if statement.</li>
+          <li>A function's name is followed by parentheses (). Later on, we will define parameters that can be placed inside the parentheses. For now, just remember that it is important to include the parentheses whenever you write a function.</li>
         </ul>
       </section>
     </main>
